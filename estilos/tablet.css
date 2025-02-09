@@ -21,7 +21,7 @@
     section#login{
         position: absolute;
         width: 90vw;
-        height: 40vh;
+        height: 230px;
         background-color: aliceblue;
         top: 50%;
         left: 50%;
@@ -46,29 +46,17 @@
     }
     
     input#ent{
-        width: 58vw;
+        width: 68%;
         height: 3vh;
-        margin-top: 5px;
+        margin-top: 10px;
     
     }
-    
-    a{
-        width: 58vw;
+  
+    input#limp{
+        width: 68%;
         height: 3vh;
-        margin: auto;
-        margin-top: 5px;
-        margin-left: 22px;
+        margin-top: 5px;      
     }
-    
-    a > p{
-        font-size: medium;
-        text-align: center;
-        margin-top: 2px;
-    }
-    
-    a:hover{
-        background-color: rgb(27, 69, 117);
-        color: white;
-    }
+   
     
 }

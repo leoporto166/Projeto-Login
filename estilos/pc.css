@@ -21,7 +21,7 @@
     section#login{
         position: absolute;
         width: 90vw;
-        height: 50vh;
+        height: 260px;
         background-color: aliceblue;
         top: 50%;
         left: 50%;
@@ -30,39 +30,26 @@
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
     }
 
-    input#iusu{
-        height: 3vh;
-        border-radius: 10px;
-        width: 50vw;
-        border: 1px solid rgb(68, 74, 170);
-    }
-    
-    
-    input#isen{
-        height: 3vh;
-        border-radius: 10px;
-        width: 50vw;
-        border: 1px solid rgb(68, 74, 170);
-    }
+   
     
     input#ent{
         width: 53vw;
-        height: 3vh;
-        margin-top: 5px;
+        height: 4vh;
+        margin-top: 10px;
     
     }
     
-    a{
+    input#limp{
         width: 53vw;
-        height: 3vh;
-        margin: auto;
+        height: 4vh;
         margin-top: 5px;
-        margin-right: 5px;
     }
-    
-    a > p{
-        font-size: medium;
-        text-align: center;
-        margin-top: 2px;
+
+
+    input{
+        width: 55%;
+        height: 4vh ;
+        margin-top: 10px;
+        
     }
 }

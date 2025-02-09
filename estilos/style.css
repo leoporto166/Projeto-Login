@@ -33,18 +33,17 @@ main{
     height: 100vh;
 }
 
-section#login{
+ section#login{
     position: absolute;
     width: 50vw;
     height: 60vh;
     background-color: aliceblue;
+    border-radius: 20px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
     transition: whidth 0.3s, height 0.3s;
-    transition-timing-function: ease;
+    transition-timing-function: ease;transform: translate(-50%, -50%);
 }
 
 section#login > h1{
@@ -68,12 +67,7 @@ label#iusu{
     margin-left: 10px ;
     width: 25px;
 }
-input#iusu{
-    height: 30px;
-    border-radius: 10px;
-    width: 40vw;
-    border: 1px solid rgb(68, 74, 170);
-}
+
 
 label#isen{
     background-color: rgb(68, 74, 170);
@@ -83,46 +77,49 @@ label#isen{
     width: 25px;
 }
 
-input#isen{
-    height: 30px;
-    border-radius: 10px;
-    width: 40vw;
-    border: 1px solid rgb(68, 74, 170);
-}
 
 input#ent{
     display: block;
     margin: auto;
-    width: 43vw;
+    width: 98%;
     height: 4vh;
     background-color: rgb(27, 69, 117);
     border-radius: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
     border: none;
     color: white;
 }
 
-a{
+input#limp{
     display: block;
     margin: auto;
-    text-decoration: none;
-    border: 1px solid rgb(27, 69, 117);
-    color: black;
-    margin-top: 5px;
-    border-radius: 5px;
-    width: 43vw;
+    width: 98%;
     height: 4vh;
-}
-
-a > p{
-    font-size: medium;
-    text-align: center;
+    background-color: white;
+    border-radius: 5px;
     margin-top: 5px;
+    border: 1px solid rgb(27, 69, 117);
+    margin-bottom: 5px;
+    color: rgb(27, 69, 117);
 }
 
-a:hover{
-    background-color: rgb(27, 69, 117);
-    color: white;
+
+
+ input{
+    
+    height: 40px;
+    border-radius: 5px;
+    width: calc(100% - 41px);
+    font-size: 1em;
+    padding-left: 5px;
+    margin: auto;
+    border: 1px solid rgb(68, 74, 170);
+    transform: translateY(-5%);
+    transform: translateY(-5px);
+    
 }
+
+
+
 
 
