@@ -2,77 +2,69 @@
 
 @media screen and (min-width: 1200px) {
 
-    img{
+    body, html{
+        background-image: linear-gradient(to bottom, #535BCE, #6FA3E1, #A8BEEA);
+    }
+
+    section#login > div#img{
+        float: left;
+        height: 100%;
+        width: 35%;
+        border-radius: 0px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-size: cover;
+
+    }
+
+
+    section#login{
         position: absolute;
-        width: 420px ;
-        height: 500px;
-    
+        width: 80vw;
+        height: 50vh;
+        background-color: aliceblue;
         top: 50%;
         left: 50%;
-        transform: translate( -123%, -50%); 
-        border-radius: 0px;
-        border-bottom-left-radius: 10px;
-        border-top-left-radius: 10px;
-    }
-
-    main{
-    
-        width: 680px;
-        height: 500px;
-        top: 50%;
-        left: 50%;
-        transform: translate(  -15%, -50%);
-        border-radius: 0px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
-
-    main > p{
-        text-align: center;
-    }
-
-    label#iusu{
-        display: block;
-        margin: auto;
-        margin-top: 10px;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
     }
 
     input#iusu{
-        height: 30px;
+        height: 3vh;
         border-radius: 10px;
-        width: 600px;
+        width: 45vw;
         border: 1px solid rgb(68, 74, 170);
-        display: block;
-        margin: auto;
     }
     
-    label#isen{
-        display: block;
-        margin: auto;
-        margin-top: 10px;
-    }
-
+    
     input#isen{
-        height: 30px;
+        height: 3vh;
         border-radius: 10px;
-        width: 600px;
+        width: 45vw;
         border: 1px solid rgb(68, 74, 170);
-        display: block;
-        margin: auto;
     }
     
     input#ent{
-        width: 600px;
-        height: 30px;
-        margin-top: 10px;
+        width: 48vw;
+        height: 3vh;
+        margin-top: 5px;
     
     }
     
-    input#limp{
-        width: 600px;
-        height: 30px;
-        margin-top: 10px;
-    
+    a{
+        width: 48vw;
+        height: 3vh;
+        margin: auto;
+        margin-top: 5px;
+        margin-right: 24px;
     }
+    
+    a > p{
+        font-size: medium;
+        text-align: center;
+        margin-top: 2px;
+    }
+}
     
 }

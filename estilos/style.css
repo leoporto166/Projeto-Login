@@ -5,45 +5,58 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: lato;
+    font-family: lato, sans-serif;
+    box-sizing: border-box;
 }
 
 
-html{
+body, html{
     background-color: rgb(83, 91, 206);
+    height: 100vh;
+    width: 100vw;
 }
 
-img{
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -134%);
+section#login > div#img{
+
+    background-image: url(../imagens/pexels-sean-whang-25006-804269.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
     position: absolute;
-    width: 250px;
-    background-color: white;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    width: 50vw;
+    height: 60vh;
+    background-color: aliceblue;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
+    transition: whidth 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
-main > h1{
+section#login > h1{
     text-align: center;
     font-weight: 700;
     padding: 10px;
 }
 
-main > p{
+section#login > p{
     padding-left: 10px;
     font-weight: 500;
+    text-align: center;
 }
 
 
@@ -58,7 +71,7 @@ label#iusu{
 input#iusu{
     height: 30px;
     border-radius: 10px;
-    width: 200px;
+    width: 40vw;
     border: 1px solid rgb(68, 74, 170);
 }
 
@@ -73,15 +86,15 @@ label#isen{
 input#isen{
     height: 30px;
     border-radius: 10px;
-    width: 200px;
+    width: 40vw;
     border: 1px solid rgb(68, 74, 170);
 }
 
 input#ent{
     display: block;
     margin: auto;
-    width: 220px;
-    height: 30px;
+    width: 43vw;
+    height: 4vh;
     background-color: rgb(27, 69, 117);
     border-radius: 5px;
     margin-top: 5px;
@@ -89,17 +102,27 @@ input#ent{
     color: white;
 }
 
-input#limp{
+a{
     display: block;
     margin: auto;
-    width: 220px;
-    height: 30px;
-    background-color: white;
-    border-radius: 5px;
-    margin-top: 5px;
+    text-decoration: none;
     border: 1px solid rgb(27, 69, 117);
-    margin-bottom: 5px;
-    color: rgb(27, 69, 117);
+    color: black;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 43vw;
+    height: 4vh;
+}
+
+a > p{
+    font-size: medium;
+    text-align: center;
+    margin-top: 5px;
+}
+
+a:hover{
+    background-color: rgb(27, 69, 117);
+    color: white;
 }
 
 

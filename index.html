@@ -11,26 +11,32 @@
     <link rel="stylesheet" href="estilos/telasg.css" media="screen">
 </head>
 <body>
+<main>
+    <section id="login">
+        <div id="img">
 
-        <img src="imagens/pexels-sean-whang-25006-804269.jpg" alt="">
-        <main>
-            <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente. Faça login param acessar sua conta!</p>
+        </div>
+        
+            
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta!</p>
+            
 
-    <form action="" method="post">
+    <form action="login.php" method="post">
         <p>
             <label for="iusu"  id="iusu" class="material-symbols-outlined">Person</label>
-            <input type="text" name="usu" id="iusu" required minlength="8" maxlength="15" placeholder="nome de usuario" size="15">
+            <input type="email" name="usu" id="iusu" required autocomplete="email" placeholder="email do usuario" size="15" >
         </p>
 
         <p>
             <label for="isen" id="isen" class="material-symbols-outlined">key</label>
-            <input type="password" name="sen" id="isen" required minlength="8" placeholder="senha do usuario" size="15">
+            <input type="password" name="sen" id="isen" required minlength="8" placeholder="senha do usuario" size="15" autocomplete="current-password">
         </p>
 
         <p><input type="submit" value="Entrar" id="ent"></p>
-        <p><input type="reset" value="Limpar" id="limp"></p>
+        <a href="esqueci.html"><p>Esqueci a Senha</p></a>
     </form>
+</section>
 </main>
 </body>
 </html>
