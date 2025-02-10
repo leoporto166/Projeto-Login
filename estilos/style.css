@@ -35,8 +35,8 @@ main{
 
  section#login{
     position: absolute;
-    width: 80vw;
-    height: 60vh;
+    width: 70vw;
+    height: 65vh;
     background-color: aliceblue;
     border-radius: 20px;
     top: 50%;
